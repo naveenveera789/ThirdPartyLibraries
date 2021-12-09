@@ -7,6 +7,7 @@ namespace ThirdPartyLibraries
         static void Main(string[] args)
         {
             CsvHandler.ImplementCSVDataHandling();
+            ReadCSVandWriteJSON.ImplementCSVToJSON();
         }
     }
 }
